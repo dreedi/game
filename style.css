@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(240, 212, 175);
+}
+ h1 {
+    text-align: center;
+    color: blueviolet;
+ }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 100%;
+ height: 100%;
+ margin-top: 10%;
+ position: relative;
+    
+   
+}
+.container-cell {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 29%;
+    border:1px solid black;
+    height: 33%;
+    background-color: rgb(217, 248, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block-name {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(229 251 255 / 73%);
+}
+.name_table {
+
+}
+.gamer-table {
+    display: flex;
+    gap: 20%;
+    
+}
+.one, .two {
+    color: #156464;
+    font-size: 30px;
+}
+.table-btn {
+    height: 6vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: rgb(33 7 131);
+    font-size: 16px;
+    background-color:rgb(235 234 210 / 96%);
+}
+.table-victory {
+    visibility: hidden ;
+    text-align: center;
+    width: 400px;
+    height: 110px;
+    position: absolute;
+    background-color: #edabdc;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.table-button {
+    height: 6vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: rgb(33 7 131);
+    font-size: 16px;
+    background-color:rgb(235 234 210 / 96%);
+}
+.table-victory_none{
+    visibility: hidden ;
+    text-align: center;
+    width: 400px;
+    height: 110px;
+    position: absolute;
+    background-color: #ffafaf;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.gamer-start {
+    visibility: hidden ;
+    color: #8d520d;
+    font-size: 30px;
+}
+.table_one {
+visibility: visible;
+}
